@@ -1,4 +1,6 @@
-![Screen Shot 2023-12-24 at 3 53 20 AM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/4ee08aba-0293-427e-ba99-659019a10e1d)
+<p align="center">
+<img src="https://i.imgur.com/KuB3GsY.png" alt="Logo"/>
+</p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />

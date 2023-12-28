@@ -7,15 +7,15 @@
 Outlining the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments and Technologies</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop for Mac
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems</h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>Ticket Lifecycle Stages</h2>
 
@@ -26,11 +26,11 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 
 <h2>Prerequisites and Installation</h2>
 
-- _This Tutorial assumes that you went through the <a href="https://github.com/CarlosAlvarado0718/osTicket-PostConfig">"osTicket - Post-Install Configuration"</a> tutorial!!_
+- _This assumes that you went through the <a href="https://github.com/Emq17/osTicket-Post-Installation-Configuration">"Administrative Post-Install Configuration"</a> demonstration walkthrough_
 
 <h2>Lifecycle Stages</h2>
 
-<h3>&#9312Opening a New Ticket as a Customer/Intake</h3>
+<h3>Opening a New Ticket as a Customer/Intake</h3>
 
 >**Note***
 >_Tickets are a Document that records the interactions on a support or service case_
@@ -55,7 +55,7 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 
 ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/ff8bf36b-b457-4c92-9d53-5c4b0b77f5a3)
 
-<h3>&#9313Assignment and Communication</h3>
+<h3>Assignment and Communication</h3>
 
 >**Note***
 >_Assigning a ticket means that the ticket must be routed to the appropriate agent or department to be able to act on it._
@@ -89,7 +89,7 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 
   ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/7ad30087-eb97-44f6-affb-14be5fc6908d)
 
-  <h3>&#9314Resolution</h3>
+  <h3>Resolution</h3>
 
 - Underneath `Post Reply`, type **Jerry from System Engineering found and corrected a failed load balancer. Mobile Banking should be back up momentarily.**
 - Change the `Ticket Status` to **Resolved**

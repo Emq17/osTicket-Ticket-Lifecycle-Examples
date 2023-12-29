@@ -110,16 +110,17 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 >**Note***
 >_Once a ticket is resolved, it will be placed underneath the `Closed` tab_
 
+- So go ahead play around with everything and repeat these steps for the rest of the other tickets.
+- You may notice that if you assign any tickets to "John Doe" and try to resolve them by logging into him (john.doe/Password1234), due to the "View only" access we've given him, you are not able to close them out. All you have to do is sign back into your admin account (user_admin) then update the settings giving him the "Supreme Admin" role.
+
 ![Screen Shot 2023-12-28 at 8 13 28 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/3100dc47-cacf-4440-b683-00bf76f769e0)
 
 ![Screen Shot 2023-12-28 at 8 15 22 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/546e3bf5-37a1-4345-8031-66ab9f12e323)
 
-- As you may have noticed inside these tickets, you can get a glimpse of the overall history of what was done to it
+- Within these tickets, you can get a glimpse of the overall history of what was done to it
 
 ![Screen Shot 2023-12-28 at 8 17 57 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/c2a0a251-b930-4edf-a867-0535655a3f70)
 
 - So expanding on that, what you can do to become better than average at your job is, in your free time, to simply look through as many past tickets as you can to get a sense for the type of problems of what happened in the environment so that you are much better equipped on fixing these overall issues
 - This advice should help many juniors starting from scratch or people who are nervous that are just starting out on a team to get ahead
 
----
-<h1>COMPLETE! CONGRATS!!!</h1>

@@ -114,9 +114,12 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 
 ![Screen Shot 2023-12-28 at 8 15 22 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/546e3bf5-37a1-4345-8031-66ab9f12e323)
 
-- Use your judgement to figure the rest of the ticket's `Priority`, `Department`, `Team`, etc
+- As you may have noticed inside these tickets, you can get a glimpse of the overall history of what was done to it
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/5a3d9344-5422-4a7e-b8df-f0dde16465f6)
+![Screen Shot 2023-12-28 at 8 17 57 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/c2a0a251-b930-4edf-a867-0535655a3f70)
+
+- So expanding on that, what you can do to become better than average at your job is, in your free time, to simply look through as many past tickets as you can to get a sense for the type of problems of what happened in the environment so that you are much better equipped on fixing these overall issues
+- This advice should help many juniors starting from scratch or people who are nervous that are just starting out on a team to get ahead
 
 ---
 <h1>COMPLETE! CONGRATS!!!</h1>

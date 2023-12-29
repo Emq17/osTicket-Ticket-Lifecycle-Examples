@@ -61,57 +61,58 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 >_Assigning a ticket means that the ticket must be routed to the appropriate agent or department to be able to act on it._
 
 - On the Web Browser (Microsoft Edge), go to the Help Desk Login Page (http://localhost/osTicket/scp/login.php).
-  - Login using Admin account created from previous labs: **user_admin / Password1234** 
-- As you can see in the Agent panel, there are all the tickets we have just created
+  - Login using the **jane.doe** agent account you had created in the last lab
 
-![Screen Shot 2023-12-28 at 7 25 39 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/ed946472-658c-429a-8053-92fded677f6a)
-
-- Go ahead and click on `Admin Panel` on the top right
-- Click `Agents`
-- Click `Jane Doe`
-
-![Screen Shot 2023-12-28 at 7 28 39 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/17cefb71-1455-47c2-b629-b2e80dcacc86)
-
-
-
-
-
+![Screen Shot 2023-12-28 at 7 51 39 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/27c544ff-4bfd-4445-bcbf-66dd786abe34)
 
 - Once logged in, you will see the existing tickets from the clients
-   - Click on **Entire Mobile Online Banking is Down** Ticket
+   - Click on **"Entire mobile online banking is down"** Ticket
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/70dc9caa-544f-48ab-b57e-30b6533e7527)
+![Screen Shot 2023-12-28 at 7 52 12 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/f28e328b-a2e8-47ff-a58d-09179c9735a4)
 
 >**Note***
 >_As an Agent, You'll need to sort tickets by levels of impact, considering the entirety of the mobile online banking is being affected negatively, this will need to placed to the highest severity, alongside departments/teams to handle the situation ASAP!_
 
-- Set `Priority` from Normal to **Emergency**
-- Set `Department` to **System Administators**
-- Set `Assigned to` **Jane Doe**
-- Set the `SLA Plan` from Default SLA to **SEV-A**
+- Let's rework this ticket and pretend as if we are the Queue Manager making sure this ticket is proper
+  - Set `Priority` from Normal to **Emergency** by clicking on `Normal` which will let you update it
+  - Set `Department` to **System Administators**
+  - Set `Assigned to` **Jane Doe**
+  - Set the `SLA Plan` from Default SLA to **SEV-A**
+    - In some organizations, the customers gets to choose the severity of the ticket which means that sometimes instead of raising the priority of one, you may have to instead put it lower regarding the actual issue
 
- 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/36cdaa8c-fdee-49f8-9e1e-297af89a7e9e)
+![Screen Shot 2023-12-28 at 8 01 03 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/9296311e-71d1-4033-a259-6571236009ea)
+
+![Screen Shot 2023-12-28 at 7 57 22 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/d63da2ff-04e6-4aa3-ab64-30b09fdfb3d4)
+
+![Screen Shot 2023-12-28 at 8 03 14 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/dd70d8f1-96eb-465f-8c93-6ba3307de9c0)
 
 - Under `Post Reply`, type **"Coordinating with Sys Admin Team to bring Mobile Banking back online"** 
 - Keep the `Ticket Status` to **Open (current)**
 - Click `Post Reply`
 
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/62522582-372b-486a-9c25-0e28d3b3306b)
+![Screen Shot 2023-12-28 at 8 06 04 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/1fdef569-5b00-48f4-a45a-5cd0dcca29d5)
 
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/7ad30087-eb97-44f6-affb-14be5fc6908d)
+![Screen Shot 2023-12-28 at 8 06 29 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/d7759277-2036-4cad-9b4b-2807087b6622)
+
+- Click `Tickets` tab up top
+- Now you can observe how the ticket has been updated 
+
+![Screen Shot 2023-12-28 at 8 08 34 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/9471cde6-37b2-44cd-bbf3-2cb76e77396b)
 
   <h3>Resolution</h3>
 
-- Underneath `Post Reply`, type **Jerry from System Engineering found and corrected a failed load balancer. Mobile Banking should be back up momentarily.**
+- Go back inside the ticket and lets pretend that we somehow fixed the issue 
+- Underneath `Post Reply`, type **"Jerry from System Engineering found and corrected a failed load balancer. Mobile Banking should be back up."**
 - Change the `Ticket Status` to **Resolved**
 
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/03bedaf8-b113-4270-bf81-2d94df6c9cfe)
+![Screen Shot 2023-12-28 at 8 12 36 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/83decac1-32dd-485c-a7b3-7c9cefe3256c)
 
 >**Note***
 >_Once a ticket is resolved, it will be placed underneath the `Closed` tab_
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/e7139d33-ff53-41d1-819a-16dab281023b)
+![Screen Shot 2023-12-28 at 8 13 28 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/3100dc47-cacf-4440-b683-00bf76f769e0)
+
+![Screen Shot 2023-12-28 at 8 15 22 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/546e3bf5-37a1-4345-8031-66ab9f12e323)
 
 - Use your judgement to figure the rest of the ticket's `Priority`, `Department`, `Team`, etc
 

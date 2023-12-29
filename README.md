@@ -126,6 +126,7 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 - Expanding on the last point I made, what you can do to become better than average at your job is, in your free time, to simply look through as many past tickets as you can to get a sense for the type of problems of what happened in the environment so that you are much better equipped on fixing these overall issues
 - This advice should help many juniors starting from scratch or people who are nervous that are just starting out on a team to get ahead
 
+<h3>As standard practice, verify your Azure resources/virtual machines, then delete the ones you don't need to prevent excessive utilization of subscription credits or losing money<h/3>
 
 
   

@@ -35,35 +35,47 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 >**Note***
 >_Tickets are a Document that records the interactions on a support or service case_
 
-- On the Web Browser (MicroSoft Edge), click on the End User Ticket Page (http://localhost/osTicket/).
+- On the Web Browser (Microsoft Edge), click on the End User Ticket Page (http://localhost/osTicket/).
 - Click on `Open a New Ticket`
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/fde593c6-85bb-4687-bfe5-2d3253234a40)
+![Screen Shot 2023-12-28 at 7 11 31 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/106098ad-4a49-4059-98ca-954f0fa1f546)
 
 - Enter **Karen's** Email Address and Full Name
 - Enter any Help Topic or **Business Critical Outage**
-- Click `Create Ticket`
 - Type a Quick Header and a Short Summary under `Issue Summary`
-  
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/652d9eb2-2239-4ecf-bbdd-220443ffd581)
+- Click `Create Ticket`
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/ba848e63-38a0-4b8a-b941-c971d837393d)
+![Screen Shot 2023-12-28 at 7 13 55 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/bbe1a526-e48d-4665-97f7-c1304cffb8d7)
 
-- Create two more tickets ranging from various importance for demonstration purposes
+![Screen Shot 2023-12-28 at 7 15 38 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/deca1645-d88f-4444-945d-bae3a5c664dc)
 
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/7c1c805b-e47c-4e93-adbe-fc14f1f5dc0f)
+- By clicking `Open a New Ticket`, create two more tickets with different Help Topics for demonstration purposes
 
-![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/ff8bf36b-b457-4c92-9d53-5c4b0b77f5a3)
+![Screen Shot 2023-12-28 at 7 20 01 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/ffbc1e57-7f43-4d48-afc6-6eff567d54a7)
+
+![Screen Shot 2023-12-28 at 7 22 15 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/4e3c0940-37ba-4dc7-956b-4f466c356d09)
 
 <h3>Assignment and Communication</h3>
 
 >**Note***
 >_Assigning a ticket means that the ticket must be routed to the appropriate agent or department to be able to act on it._
 
-- On the Web Browser (MicroSoft Edge), go to the Help Desk Login Page (http://localhost/osTicket/scp/login.php).
-  - Login using the **jane.doe@osticket.com** agent account
- 
-  ![image](https://github.com/CarlosAlvarado0718/osTicket_Lifecycle/assets/140138198/34c5b3e4-7bdd-4f81-a890-efc69f41fe01)
+- On the Web Browser (Microsoft Edge), go to the Help Desk Login Page (http://localhost/osTicket/scp/login.php).
+  - Login using Admin account created from previous labs: **user_admin / Password1234** 
+- As you can see in the Agent panel, there are all the tickets we have just created
+
+![Screen Shot 2023-12-28 at 7 25 39 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/ed946472-658c-429a-8053-92fded677f6a)
+
+- Go ahead and click on `Admin Panel` on the top right
+- Click `Agents`
+- Click `Jane Doe`
+
+![Screen Shot 2023-12-28 at 7 28 39 PM](https://github.com/Emq17/osTicket-Ticket-Lifecycle-Examples/assets/147126755/17cefb71-1455-47c2-b629-b2e80dcacc86)
+
+
+
+
+
 
 - Once logged in, you will see the existing tickets from the clients
    - Click on **Entire Mobile Online Banking is Down** Ticket

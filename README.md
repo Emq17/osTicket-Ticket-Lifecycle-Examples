@@ -123,6 +123,3 @@ Outlining the lifecycle of a ticket from intake to resolution within the open-so
 
 ---
 <h1>COMPLETE! CONGRATS!!!</h1>
-
->**Note***
->_Rememeber to delete everything on Azure_
